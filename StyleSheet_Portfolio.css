@@ -1,0 +1,319 @@
+/* The background: */
+body {
+/*     background-color: #615D62; */
+    background-color: #160E02;
+    margin-left: 0px;
+            
+    background-image: url(forportfoliocropped.png);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-size: 300px;
+            
+    /* For the animation in the top left corner: */
+/*     animation-name: helm-the-bunny;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s; */
+}
+
+/* Adding google fonts */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
+
+        
+/* For the headings at the top of the page: */
+h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+    font-weight:lighter;
+/*     color: #D9B6FC; */
+
+    animation-name: titleanimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+
+    /* for the text shadow */
+/*     text-shadow: 1px 1px 0 black, 1px 2px 0 black, 1px 3px 0 black, 1px 4px 0 black,
+    1px 5px 0 black, 1px 6px 0 black, 1px 7px 0 black, 1px 8px 0 black,
+    5px 13px 15px black; */
+    
+    /* for the fire effect */
+    color: #f5f5f5;
+/*     text-shadow: 0px -2px 4px #fff, 0px -2px 10px #FF3, 0px -10px 20px #F90, 0px -20px 40px #C33; */
+}
+        
+h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+        
+h3 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+/*     color: #D9CDB8; */
+    color: white;
+}
+        
+/* For the navigation buttons when the mouse hovers on top of them: */
+.nav-button:hover {
+    color: white;
+/*     background-color: #262626; */
+    background-color: #160E02;
+}
+        
+/* For the navigation buttons: */
+.nav-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 340px;
+
+    border-color: lightgrey;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 0.25em;
+
+    background-color: #8A6C30;
+    border-radius: 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease;
+    padding-left: 25px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-button-current {
+    color: white;
+    background-color: #160E02;
+}
+        
+/* For the text in the paragraph: */
+p {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+           
+/* These are all for the link at the bottom of the page that brings you to the top: */
+#top-link{
+    text-align: center;
+    font-size: 24px;
+/*     color:rgba(217, 182, 252, 0.6); */
+    color: white;
+}
+
+#top-link a:link {
+/*     color:rgba(217, 182, 252, 0.6); */
+    color: white;
+}
+        
+#top-link a:active {
+    color: #A66046;
+}
+        
+#top-link a:default {
+    color: white;
+}
+        
+#top-link a:visited {
+    color: #8F5B43;
+}
+        
+#top-link a:hover {
+    color: #662907;
+}
+
+/* This is where the text is: */
+/* It helps put the text next to the navigation buttons instead of under them. */
+#square-text {
+    border-color: white;
+    display: inline-block;
+    width: 70%;
+    box-sizing: content-box;
+    text-align: left;
+    background-color: rgba(170, 119, 119, 0);
+    position: relative;
+    align-self: left;
+    left: 360px;
+    /* bottom: 190px; */
+    bottom: 264px;
+}
+
+/* Since this page did not need a grid, this is for the placement of the images: */
+ #square-images {
+    border: none;
+    display: inline;
+    width: 35%;
+    border-width: 2px;
+    border-style: none;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    align-self: left;
+    left: 360px;
+    /* bottom: 172px; */
+    bottom: 248px;
+}
+
+/* This is for the grid that the images go in
+/* The code was based on the code from here: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_justify-content_start */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: none;
+    padding: 0px;
+    position: relative;
+    align-self: left;
+    left: 360px;
+    /* bottom: 172px; */
+    bottom: 248px;
+    width: 70%;
+}
+        
+/* This for the individual items in the grid *
+/* It is also based on the code from: https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_justify-content_start */
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid none;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    height: 400px;
+    width: 0%;
+}
+
+/* Same thing but for the longer paintings: */
+/* Since they take up more space for the height */
+.grid-item-special {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid none;
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+    height: 600px;
+    width: 0%;
+} 
+ 
+        
+/* This is for the animation in the top left: */
+@keyframes helm-the-bunny {
+    0% {
+        background-size: 0px, auto;
+    }
+    100% {
+        background-size: 300px, auto;
+    }
+}
+
+@keyframes titleanimation {
+    0% {
+        font-size: 0px, auto;
+    }
+    100% {
+        font-size: 100px, auto;
+    }
+}
+
+/* adding the text */
+/* help from: https://www.w3schools.com/howto/howto_css_image_overlay.asp */
+.coverArt {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #A68444;
+}
+
+.grid-item:hover .coverArt {
+  opacity: 1;
+}
+
+.text {
+/*   color: white; */
+  color: #D9CDB8;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+        
+/* This is for the layout of the page in mobile: */
+@media only screen and (max-width: 767px) {
+            
+    /* Edits to the background layout: */
+    body {
+        margin-left: 15px;
+        margin-right: 15px;
+
+        
+        background-image: url(forportfoliocropped.jpg);
+        background-repeat: no-repeat; 
+        background-position: 20px 20px;
+        background-size: 100px;
+    }
+            
+    /* The navigation buttons now take up the whole site: */
+    .nav-button {
+        width: 100%;
+    }
+            
+    h1 {
+        text-align: right;
+        font-size: 70px;
+    }
+            
+    h2 {
+        text-align: right;
+    }
+            
+    #square-text {
+        left: 0px;
+        bottom: 0px;
+        text-align: left;
+    }
+
+    #square-images {
+        grid-template-columns: auto;
+        position: relative;
+        align-self: left;
+        left: 0px;
+        bottom: -20px;
+        width: 100%;
+    }
+
+    .grid-item-special {
+        height: 700px;
+    }
+    
+    .grid-item {
+        height: 520px;
+    }
+    
+    .grid-container {
+        grid-template-columns: auto;
+        position: relative;
+        align-self: left;
+        left: 0px;
+        bottom: -20px;
+    }
+}
+        
