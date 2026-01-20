@@ -42,13 +42,17 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <Link
+          <Link
               to="/contact"
-              className="text-white border border-transparent px-5 py-2 rounded-lg font-semibold hover:text-purple-400 hover:border-purple-400 transition-all"
-
-            >
-              Contact
-            </Link>
+              className="
+                text-white 
+                px-5 py-2 rounded-lg font-semibold
+                bg-purple-600
+                transition-colors
+                hover:bg-purple-700"
+          >
+            Contact
+          </Link>
           </li>
         </ul>
 
@@ -83,13 +87,17 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <Link
+          <Link
               to="/contact"
-              onClick={() => setIsOpen(false)}
-              className="text-white border border-transparent px-5 py-2 rounded-lg font-semibold hover:text-purple-400 hover:border-purple-400 transition-all"
-            >
-              Contact
-            </Link>
+              className="
+                text-white 
+                px-5 py-2 rounded-lg font-semibold
+                bg-purple-600
+                transition-colors
+                hover:bg-purple-700"
+          >
+            Contact
+          </Link>
           </li>
         </ul>
       </div>

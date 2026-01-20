@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import spiderlegovid from "../assets/spiderlegoportfolio.mp4";
+import spiderlegovid from "../assets/artwork/spiderlegoportfolio.mp4";
 
 export default function Home() {
   return (
@@ -55,7 +55,7 @@ export default function Home() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-l from-black/70 to-transparent" />
+        <div className="absolute inset-0" />
       </section>
     </main>
   );
