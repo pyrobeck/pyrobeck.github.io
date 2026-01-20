@@ -43,6 +43,17 @@ export default function Home() {
           <p className="text-sm sm:text-base">
             Welcome to my art portfolio.
           </p>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <p className="text-sm sm:text-base">
+            This website was created by me using React & Vite. Check it out on my Github linked at the bottom.  
+          </p>
         </motion.div>
       </section>
 

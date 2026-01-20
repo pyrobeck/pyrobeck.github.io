@@ -13,9 +13,111 @@ import ninthpic from "../assets/artwork/IMG_20200213_191915_optimized.jpg";
 import tenthpic from "../assets/artwork/20181214_210453.jpg";
 
 // volunteer work
-import eleventhpic from "../assets/artwork/playbillcovermeangirls_final.png";
-import thirteenthpic from "../assets/artwork/Colour Escape the Simulation Logo - white text.png";
-import fourteenthpic from "../assets/artwork/Escape the Simulation Logo with Team Logos White with Name Bar.png";
+import frontmusicalpic from "../assets/artwork/MusicalDesigns/playbillcovermeangirls_final.png";
+import beamgirlsticketposter from "../assets/artwork/MusicalDesigns/Beam_Girls_Ticket_Poster_-_NEW_1.png";
+import costumehiringpost from "../assets/artwork/MusicalDesigns/Costume Hiring Post - Atoms Family.png"
+
+import frontengfroshpic from "../assets/artwork/Escape the Simulation Logo with Team Logos White with Name Bar.png";
+import whiteengfroshlogo from "../assets/artwork/Colour Escape the Simulation Logo - white text.png";
+import CGullslogo from "../assets/artwork/EngFrosh2023/C-Gulls Logo colour.png"
+import CyberSurferslogo from "../assets/artwork/EngFrosh2023/Cyber Surfers Logo colour.png"
+import DataMinerslogo from "../assets/artwork/EngFrosh2023/Data Miners Logo colour.png"
+import DiodeDogslogo from "../assets/artwork/EngFrosh2023/Diode Dogs Logo colour.png"
+import FirewallFlamingoslogo from "../assets/artwork/EngFrosh2023/Firewall Flamingos Logo colour.png"
+import LANSharkslogo from "../assets/artwork/EngFrosh2023/LAN Sharks Logo colour.png"
+import MicroShipslogo from "../assets/artwork/EngFrosh2023/Micro Ships Logo colour.png"
+import ResistorRangerslogo from "../assets/artwork/EngFrosh2023/Resistor Rangers Logo colour.png"
+import ThermalPastalogo from "../assets/artwork/EngFrosh2023/Thermal Pasta Logo colour.png"
+import WidgetWizardslogo from "../assets/artwork/EngFrosh2023/Widget Wizards Logo colour.png"
+
+import frontieeepatch from "../assets/artwork/IEEECarleton/ieeeduntonlogopatch3dversionSKETCH4.png"
+import ieeedirectorhiring from "../assets/artwork/IEEECarleton/1.png"
+import ieeebilliardsnight from "../assets/artwork/IEEECarleton/I Triple billiards night.png"
+import ieeenonamepatch from "../assets/artwork/IEEECarleton/IEEEEEE_20251011_232046_0000.png"
+import ieeeslam from "../assets/artwork/IEEECarleton/SLAM_sign_ups_post.png"
+
+
+
+const musicalGallery = [
+  {
+    src: frontmusicalpic,
+    title: "Mean Girls Playbill Cover",
+    description:
+      "Designed the official playbill cover for the school production of Mean Girls.",
+  },
+  {
+    src: beamgirlsticketposter,
+    title: "Beam Girls Ticket Poster",
+    description:
+      "Poster to advertise ticket sales for the musical.",
+  },
+  {
+    src: costumehiringpost,
+    title: "Costume Hiring Post",
+    description:
+      "Social media graphic to recruit costume designers for the show.",
+  },
+];
+
+const engFroshGallery = [
+  {
+    src: frontengfroshpic,
+    title: "Escape the Simulation – Full Logo Set",
+    description:
+      "Main EngFrosh logo with all team logos and name bar.",
+  },
+  {
+    src: whiteengfroshlogo,
+    title: "Escape the Simulation – White Logo",
+    description:
+      "Main EngFrosh logo in white for dark backgrounds.",
+  },
+  { src: CGullslogo, title: "C-Gulls", description: "EngFrosh team logo." },
+  { src: CyberSurferslogo, title: "Cyber Surfers", description: "EngFrosh team logo." },
+  { src: DataMinerslogo, title: "Data Miners", description: "EngFrosh team logo." },
+  { src: DiodeDogslogo, title: "Diode Dogs", description: "EngFrosh team logo." },
+  { src: FirewallFlamingoslogo, title: "Firewall Flamingos", description: "EngFrosh team logo." },
+  { src: LANSharkslogo, title: "LAN Sharks", description: "EngFrosh team logo." },
+  { src: MicroShipslogo, title: "Micro Ships", description: "EngFrosh team logo." },
+  { src: ResistorRangerslogo, title: "Resistor Rangers", description: "EngFrosh team logo." },
+  { src: ThermalPastalogo, title: "Thermal Pasta", description: "EngFrosh team logo." },
+  { src: WidgetWizardslogo, title: "Widget Wizards", description: "EngFrosh team logo." },
+];
+
+const ieeeGallery = [
+  {
+    src: frontieeepatch,
+    title: "IEEE Dunton Patch Concept",
+    description:
+      "Patch concept for IEEE Carleton featuring Dunton Tower.",
+  },
+  {
+    src: ieeedirectorhiring,
+    title: "Director Hiring Post",
+    description:
+      "Graphic to advertise director hiring for IEEE Carleton.",
+  },
+  {
+    src: ieeebilliardsnight,
+    title: "Billiards Night Poster",
+    description:
+      "Promotional poster for an IEEE Carleton billiards social.",
+  },
+  {
+    src: ieeenonamepatch,
+    title: "IEEE Patch Variant",
+    description:
+      "Alternative patch design concept.",
+  },
+  {
+    src: ieeeslam,
+    title: "SLAM Sign-Ups Post",
+    description:
+      "Event sign-up graphic for the SLAM event.",
+  },
+];
+
+
 
 export default function Portfolio() {
   const personalWork = [
@@ -68,21 +170,28 @@ export default function Portfolio() {
 
   const groupWork = [
     {
-      src: eleventhpic,
-      title: "Mean Girls Playbill Cover",
-      description: "Designed the official playbill for a theatre production.",
+      cover: frontmusicalpic,
+      title: "Musical Designs",
+      description:
+        "Playbill cover and event graphics for school musical productions.",
+      gallery: musicalGallery,
     },
     {
-      src: thirteenthpic,
-      title: "Escape the Simulation Logo",
-      description: "Created logo for Carleton University EngFrosh.",
+      cover: frontengfroshpic,
+      title: "EngFrosh 2023 Logos",
+      description:
+        "Main EngFrosh logo and 10 team logos used on shirts and merchandise for over 1300 participants.",
+      gallery: engFroshGallery,
     },
     {
-      src: fourteenthpic,
-      title: "Team Logo Collaboration",
-      description: "Created main logo and worked with teams to create individual logos for Carleton University EngFrosh.",
+      cover: frontieeepatch,
+      title: "IEEE Carleton Publications",
+      description:
+        "Patch concepts and social media graphics for IEEE Carleton events and announcements.",
+      gallery: ieeeGallery,
     },
   ];
+  
 
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeGallery, setActiveGallery] = useState(null);
@@ -133,6 +242,13 @@ export default function Portfolio() {
         >
           PERSONAL WORK
         </h1>
+        <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
+          A selection of my personal drawings and 3D creations.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8">
           {personalWork.map((art, i) => (
@@ -157,9 +273,7 @@ export default function Portfolio() {
           ))}
         </div>
 
-        <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
-          A selection of my personal drawings and 3D creations.
-        </p>
+        
       </motion.section>
 
       {/* VOLUNTEER WORK SECTION */}
@@ -177,9 +291,16 @@ export default function Portfolio() {
         >
           VOLUNTEER WORK
         </h1>
+        <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
+          Click on the image to see the other work I have done for each group!
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8">
-          {groupWork.map((art, i) => (
+          {groupWork.map((project, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
@@ -187,26 +308,26 @@ export default function Portfolio() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
               className="relative group overflow-hidden rounded-xl shadow-lg cursor-pointer"
-              onClick={() => openModal(groupWork, i)}
+              onClick={() => openModal(project.gallery, 0)} // 👈 open that folder’s gallery
             >
               <img
-                src={art.src}
-                alt={art.title}
+                src={project.cover}
+                alt={project.title}
                 className="w-full h-[350px] object-cover transform transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
-                <p className="text-sm font-medium text-white opacity-90">{art.title}</p>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <p className="text-sm font-medium text-white opacity-90">
+                  {project.title}
+                </p>
               </div>
-            </motion.div>
-          ))}
-        </div>
+    </motion.div>
+  ))}
+</div>
 
-        <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
-          Some work I have done for various different groups.
-        </p>
 
-        <br />
-        <br />
+
+
+        
       </motion.section>
 
       {/* MODAL / LIGHTBOX */}

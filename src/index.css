@@ -33,9 +33,7 @@ body {
   color: #ffffff;
 }
 
-a {
-  @apply transition-colors duration-200;
-}
+
 
 /* Headings */
 h1 {

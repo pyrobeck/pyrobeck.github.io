@@ -21,6 +21,27 @@ export default function Contact() {
           transition={{ delay: 0.6 }}
           className="space-y-8 mt-6"
         >
+
+          <p className="text-base sm:text-lg font-semibold text-purple-100">
+            Email:{" "}
+            <a
+              href="mailto:beckbraun@cmail.carleton.ca"
+              className="underline hover:text-purple-300 transition-colors"
+            >
+              beckbraun@cmail.carleton.ca
+            </a>
+          </p>
+
+          <p className="text-base sm:text-lg font-semibold text-purple-100">
+            LinkedIn:{" "}
+            <a
+              href="https://www.linkedin.com/in/beckbraun/"
+              className="underline hover:text-purple-300 transition-colors"
+            >
+              https://www.linkedin.com/in/beckbraun/
+            </a>
+          </p>
+
           <p className="text-base sm:text-lg font-semibold text-purple-100">
             Instagram:{" "}
             <a
@@ -30,16 +51,6 @@ export default function Contact() {
               className="underline hover:text-purple-300 transition-colors"
             >
               @pyrobeckdraws
-            </a>
-          </p>
-
-          <p className="text-base sm:text-lg font-semibold text-purple-100">
-            Email:{" "}
-            <a
-              href="mailto:beckbraun@cmail.carleton.ca"
-              className="underline hover:text-purple-300 transition-colors"
-            >
-              beckbraun@cmail.carleton.ca
             </a>
           </p>
         </motion.div>
