@@ -14,7 +14,7 @@ export default function Games() {
         transition={{ duration: 1 }}
         className="font-[Playfair_Display] font-bold text-center leading-[0.9] mb-16
                    text-[4rem] sm:text-[6rem] md:text-[8rem]
-                   bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
+                   bg-linear-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
       >
         Games
       </motion.h1>
@@ -41,7 +41,7 @@ export default function Games() {
               alt={`game-${i}`}
               className="w-full h-[350px] object-cover transform transition-transform duration-300"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity"></div>
+            <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity"></div>
           </motion.div>
         ))}
       </motion.section>

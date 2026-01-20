@@ -129,7 +129,7 @@ export default function Portfolio() {
         <h1
           className="font-[Playfair_Display] font-bold text-center leading-[0.9] mb-16
                      text-[4rem] sm:text-[6rem] md:text-[8rem]
-                     bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
+                     bg-linear-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
         >
           Personal Work
         </h1>
@@ -150,7 +150,7 @@ export default function Portfolio() {
                 alt={art.title}
                 className="w-full h-[350px] object-cover transform transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+              <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
                 <p className="text-sm font-medium text-white opacity-90">{art.title}</p>
               </div>
             </motion.div>
@@ -173,7 +173,7 @@ export default function Portfolio() {
         <h1
           className="font-[Playfair_Display] font-bold text-center leading-[0.9] mb-16
                      text-[4rem] sm:text-[6rem] md:text-[8rem]
-                     bg-gradient-to-r from-fuchsia-500 via-pink-500 to-red-400 bg-clip-text text-transparent"
+                     bg-linear-to-r from-fuchsia-500 via-pink-500 to-red-400 bg-clip-text text-transparent"
         >
           Volunteer Work
         </h1>
@@ -194,7 +194,7 @@ export default function Portfolio() {
                 alt={art.title}
                 className="w-full h-[350px] object-cover transform transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+              <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
                 <p className="text-sm font-medium text-white opacity-90">{art.title}</p>
               </div>
             </motion.div>

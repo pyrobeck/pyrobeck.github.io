@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
 import Games from "./pages/games";
 import Contact from "./pages/contact";
@@ -11,7 +11,7 @@ export default function App() {
     <Router>
       <div className="min-h-screen flex flex-col bg-black text-white">
       <nav className="flex items-center justify-between px-6 sm:px-12 py-4 md:py-6 bg-black text-white font-sans">
-  <Link to="/" className="flex items-center flex-shrink-0">
+  <Link to="/" className="flex items-center shrink-0">
     <img
       src={spiderlogo}
       alt="Beck's Logo"

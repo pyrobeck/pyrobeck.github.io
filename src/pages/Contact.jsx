@@ -11,7 +11,7 @@ export default function Contact() {
           transition={{ duration: 1 }}
           className="font-[Playfair_Display] font-bold leading-[0.9] tracking-tight mb-12
                      text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[13rem]
-                     bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
+                     bg-linear-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
         >
           Contact
         </motion.h1>
@@ -64,7 +64,7 @@ export default function Contact() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-l from-black/70 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-l from-black/70 to-transparent" />
       </section>
     </main>
   );

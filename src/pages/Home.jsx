@@ -10,7 +10,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           className="font-[Playfair_Display] font-bold leading-[0.9] tracking-tight text-center md:text-left
-                     text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[13rem] bg-gradient-to-r 
+                     text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[13rem] bg-linear-to-r 
                      from-white via-white to-white bg-clip-text text-transparent"
         >
           BECK’S<br />PORTFOLIO

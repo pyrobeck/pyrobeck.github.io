@@ -37,7 +37,7 @@ export default function Navbar() {
                 } transition-colors`}
               >
                 {link.name}
-                <span className="absolute left-0 bottom-0 w-0 h-[1px] bg-purple-400 transition-all group-hover:w-full"></span>
+                <span className="absolute left-0 bottom-0 w-0 h-px bg-purple-400 transition-all group-hover:w-full"></span>
               </Link>
             </li>
           ))}
