@@ -6,7 +6,6 @@ import Contact from "./pages/contact";
 import Footer from "./components/footer";
 import spiderlogo from "./assets/spiderbec.png";
 
-
 export default function App() {
   return (
     <Router>
