@@ -9,9 +9,9 @@ export default function Home() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="font-[Playfair_Display] font-bold leading-[0.9] tracking-tight text-center md:text-left
-                     text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[13rem] bg-linear-to-r 
-                     from-white via-white to-white bg-clip-text text-transparent"
+          style={{ fontFamily: '"Space Mono", monospace' }}
+          className="font-mono font-bold leading-[0.9] tracking-tight text-center md:text-left
+                     text-7xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[13rem] text-white"
         >
           BECK’S<br />PORTFOLIO
         </motion.h1>

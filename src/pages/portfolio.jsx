@@ -127,11 +127,11 @@ export default function Portfolio() {
         className="w-full max-w-7xl mb-32"
       >
         <h1
-          className="font-[Playfair_Display] font-bold text-center leading-[0.9] mb-16
-                     text-[4rem] sm:text-[6rem] md:text-[8rem]
-                     bg-linear-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
+          className="font-mono font-bold text-center leading-[0.9] mb-16
+                     text-[4rem] sm:text-[6rem] md:text-[8rem]"
+          style={{ fontFamily: '"Space Mono", monospace' }}
         >
-          Personal Work
+          PERSONAL WORK
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8">
@@ -171,11 +171,11 @@ export default function Portfolio() {
         className="w-full max-w-7xl"
       >
         <h1
-          className="font-[Playfair_Display] font-bold text-center leading-[0.9] mb-16
-                     text-[4rem] sm:text-[6rem] md:text-[8rem]
-                     bg-linear-to-r from-fuchsia-500 via-pink-500 to-red-400 bg-clip-text text-transparent"
+          className="font-mono font-bold text-center leading-[0.9] mb-16
+                     text-[4rem] sm:text-[6rem] md:text-[8rem] text-white"
+          style={{ fontFamily: '"Space Mono", monospace' }}
         >
-          Volunteer Work
+          VOLUNTEER WORK
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8">
@@ -207,9 +207,6 @@ export default function Portfolio() {
 
         <br />
         <br />
-        <p className="text-purple-400 text-center mt-12 max-w-2xl mx-auto">
-          🕸️ Updated frequently! 🕸️
-        </p>
       </motion.section>
 
       {/* MODAL / LIGHTBOX */}

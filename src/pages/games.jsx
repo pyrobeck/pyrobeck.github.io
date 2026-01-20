@@ -12,11 +12,11 @@ export default function Games() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="font-[Playfair_Display] font-bold text-center leading-[0.9] mb-16
-                   text-[4rem] sm:text-[6rem] md:text-[8rem]
-                   bg-linear-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
+        style={{ fontFamily: '"Space Mono", monospace' }}
+        className="font-mono font-bold text-center leading-[0.9] mb-16
+                   text-[4rem] sm:text-[6rem] md:text-[8rem] text-white"
       >
-        Games
+        GAMES
       </motion.h1>
 
       <motion.section

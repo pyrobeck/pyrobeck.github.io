@@ -9,11 +9,10 @@ export default function Contact() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="font-[Playfair_Display] font-bold leading-[0.9] tracking-tight mb-12
-                     text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[13rem]
-                     bg-linear-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-clip-text text-transparent"
+          style={{ fontFamily: '"Space Mono", monospace' }}
+          className="font-mono font-bold leading-[0.9] tracking-tight mb-12 text-8xl sm:text-9xl md:text-[10rem] lg:text-[14rem] xl:text-[18rem] text-white"
         >
-          Contact
+          CONTACT
         </motion.h1>
 
         <motion.div
