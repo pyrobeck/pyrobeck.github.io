@@ -1,5 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/home";
+import { Routes, Route, Link } from "react-router-dom";import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
 import Games from "./pages/games";
 import Contact from "./pages/contact";
@@ -8,7 +7,6 @@ import spiderlogo from "./assets/spiderbec.png";
 
 export default function App() {
   return (
-    <Router>
       <div className="min-h-screen flex flex-col bg-black text-white">
       <nav className="flex items-center justify-between px-6 sm:px-12 py-4 md:py-6 bg-black text-white font-sans">
   <Link to="/" className="flex items-center shrink-0">
@@ -23,14 +21,14 @@ export default function App() {
     <Link to="/" className="text-purple-200 hover:text-purple-400 transition-colors">
       Home
     </Link>
-    <Link to="/portfolio" className="text-purple-200 hover:text-purple-400 transition-colors">
+    <Link to="portfolio" className="text-purple-200 hover:text-purple-400 transition-colors">
       Portfolio
     </Link>
-    <Link to="/games" className="text-purple-200 hover:text-purple-400 transition-colors">
+    <Link to="games" className="text-purple-200 hover:text-purple-400 transition-colors">
       Games
     </Link>
     <Link
-      to="/contact"
+      to="contact"
       className="bg-purple-700 px-5 py-2 rounded-lg text-white font-semibold hover:bg-purple-600 transition-colors shadow-md hover:shadow-purple-700/40"
     >
       Contact
@@ -53,6 +51,5 @@ export default function App() {
 
         <Footer />
       </div>
-    </Router>
   );
 }
