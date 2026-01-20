@@ -89,7 +89,7 @@ const ieeeGallery = [
     src: frontieeepatch,
     title: "IEEE Dunton Patch Concept",
     description:
-      "Patch concept for IEEE Carleton featuring Dunton Tower.",
+      "Patch for IEEE Carleton featuring Dunton Tower.",
   },
   {
     src: ieeedirectorhiring,
@@ -101,19 +101,19 @@ const ieeeGallery = [
     src: ieeebilliardsnight,
     title: "Billiards Night Poster",
     description:
-      "Promotional poster for an IEEE Carleton billiards social.",
+      "Promotional poster for an IEEE Carleton billiards night.",
   },
   {
     src: ieeenonamepatch,
     title: "IEEE Patch Variant",
     description:
-      "Alternative patch design concept.",
+      "No name patch design.",
   },
   {
     src: ieeeslam,
     title: "SLAM Sign-Ups Post",
     description:
-      "Event sign-up graphic for the SLAM event.",
+      "Sign-up graphic for SLAM.",
   },
 ];
 
