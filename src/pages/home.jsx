@@ -52,7 +52,10 @@ export default function Home() {
           <br></br>
           <br></br>
           <p className="text-sm sm:text-base">
-            This website was created by me using React & Vite. Check it out on my Github linked at the bottom.  
+            This website was created by me using React & Vite. 
+          </p>
+          <p className="text-sm sm:text-base">
+            Check it out on my Github linked at the bottom.  
           </p>
         </motion.div>
       </section>
