@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import spiderlegovid from "../assets/artwork/IMD3002_TPC_B_Braun_I_Legault_Video.mp4";
+import spiderlegovid from "../assets/spiderlegoportfolio.mp4";
 
 export default function Home() {
   return (
