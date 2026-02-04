@@ -1,5 +1,5 @@
-import { Routes, Route, Link } from "react-router-dom";import Home from "./pages/home";
-import Portfolio from "./pages/portfolio";
+import { Routes, Route, Link } from "react-router-dom";import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
 import Games from "./pages/games";
 import Contact from "./pages/contact";
 import Footer from "./components/footer";
@@ -7,7 +7,7 @@ import spiderlogo from "./assets/spiderbec.png";
 
 export default function App() {
   return (
-      <div className="min-h-screen flex flex-col bg-black text-white">
+      <div className="min-h-screen flex flex-col bg-black text-white overflow-x-hidden">
       <nav className="flex items-center justify-between px-6 sm:px-12 py-4 md:py-6 bg-black text-white font-sans">
   <Link to="/" className="flex items-center shrink-0">
     <img

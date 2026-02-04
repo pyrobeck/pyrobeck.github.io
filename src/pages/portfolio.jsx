@@ -11,6 +11,8 @@ import seventhpic from "../assets/artwork/helmwithfriends.jpg";
 import eighthpic from "../assets/artwork/kingbaby_quality.png";
 import ninthpic from "../assets/artwork/IMG_20200213_191915_optimized.jpg";
 import tenthpic from "../assets/artwork/20181214_210453.jpg";
+import spidermandizzy from "../assets/artwork/spidermandizzy.png";
+import meldrawing from "../assets/artwork/melmedarda.png";
 
 // volunteer work
 import frontmusicalpic from "../assets/artwork/MusicalDesigns/playbillcovermeangirls_final.png";
@@ -129,11 +131,22 @@ export default function Portfolio() {
     {
       src: anotherpic,
       title: "What have they done to us",
-      description: "Stylized drawing inspired by Arcane.",
+      description: "Stylized drawing of Vi and Vander from the show Arcane.",
+    },
+    {
+      src: meldrawing,
+      title: "Mel Medarda Study",
+      description: "From the show Arcane.",
     },
     {
       src: thirdpic,
       title: "Vi Study",
+      description: "From the show Arcane.",
+    },
+    {
+      src: spidermandizzy,
+      title: "Spider-Man School Sketch",
+      description: "Drawing of Spider-Man trying to get schoolwork done.",
     },
     {
       src: fourthpic,
