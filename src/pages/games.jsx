@@ -18,8 +18,42 @@ export default function Games() {
       >
         GAMES
       </motion.h1>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.6 }}
+        className="text-center mt-20 space-y-6"
+      >
+        
+        <p className="text-purple-200 text-lg max-w-xl mx-auto">
+          Most recent VR game:
+        </p>
+        <a
+          href="https://pyrobeck.itch.io/rodneys-revenge"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-purple-400 hover:text-purple-300 transition-colors"
+        >
+          Rodney's Revenge
+        </a>
+        
+      </motion.div>
 
-      <motion.section
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.6 }}
+        className="text-center mt-20 space-y-6"
+      >
+        
+        <p className="text-purple-200 text-lg max-w-xl mx-auto">
+          Capstone VR project:
+        </p>
+        <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
+          I spent 8 months working with 5 other students on an escape room VR game.  
+        </p>
+
+        <motion.section
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
@@ -46,14 +80,9 @@ export default function Games() {
         ))}
       </motion.section>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.6 }}
-        className="text-center mt-20 space-y-6"
-      >
-        <p className="text-purple-200 text-lg max-w-xl mx-auto">
-          You can check out the capstone VR project I worked on here:
+        
+        <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
+          Here is the website where you can download and learn more about the game:
         </p>
         <a
           href="https://codenoirstudios.wixsite.com/deckofsecrets/"
