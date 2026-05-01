@@ -18,6 +18,9 @@ import meldrawing from "../assets/artwork/melmedarda.png";
 import frontmusicalpic from "../assets/artwork/MusicalDesigns/playbillcovermeangirls_final.png";
 import beamgirlsticketposter from "../assets/artwork/MusicalDesigns/Beam_Girls_Ticket_Poster_-_NEW_1.png";
 import costumehiringpost from "../assets/artwork/MusicalDesigns/Costume Hiring Post - Atoms Family.png"
+import atomsplaybill from "../assets/artwork/MusicalDesigns/atomsplaybill.png";
+import atomsposter from "../assets/artwork/MusicalDesigns/atomsposter.png";
+import atomsticket from "../assets/artwork/MusicalDesigns/atomsticket.png";
 
 import frontengfroshpic from "../assets/artwork/Escape the Simulation Logo with Team Logos White with Name Bar.png";
 import whiteengfroshlogo from "../assets/artwork/Colour Escape the Simulation Logo - white text.png";
@@ -43,9 +46,15 @@ import ieeeslam from "../assets/artwork/IEEECarleton/SLAM_sign_ups_post.png"
 const musicalGallery = [
   {
     src: frontmusicalpic,
-    title: "Mean Girls Playbill Cover",
+    title: "Beam Girls Playbill Cover",
     description:
-      "Designed the official playbill cover for the school production of Mean Girls.",
+      "Designed the official playbill cover for the school production of Beam Girls, a parody of Mean Girls.",
+  },
+  {
+    src: atomsplaybill,
+    title: "The Atoms Family Playbill Cover",
+    description:
+      "Designed the official playbill cover for the school production of The Atoms Family, a parody of The Addams Family.",
   },
   {
     src: beamgirlsticketposter,
@@ -54,10 +63,22 @@ const musicalGallery = [
       "Poster to advertise ticket sales for the musical.",
   },
   {
+    src: atomsposter,
+    title: "Atoms Family Ticket Poster",
+    description:
+      "Poster to advertise ticket sales for the musical.",
+  },
+  {
+    src: atomsticket,
+    title: "Atoms Family Ticket",
+    description:
+      "Ticket designed for the musical.",
+  },
+  {
     src: costumehiringpost,
     title: "Costume Hiring Post",
     description:
-      "Social media graphic to recruit costume designers for the show.",
+      "Example of one of the social media graphics made for the musical.",
   },
 ];
 
@@ -289,7 +310,6 @@ export default function Portfolio() {
         
       </motion.section>
 
-      {/* VOLUNTEER WORK SECTION */}
       <motion.section
         initial={{ opacity: 0, y: 60 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -302,7 +322,7 @@ export default function Portfolio() {
                      text-[4rem] sm:text-[6rem] md:text-[8rem] text-white"
           style={{ fontFamily: '"Space Mono", monospace' }}
         >
-          VOLUNTEER WORK
+          GROUP WORK
         </h1>
         <p className="text-gray-300 text-center mt-12 max-w-2xl mx-auto">
           Click on the image to see the other work I have done for each group!
