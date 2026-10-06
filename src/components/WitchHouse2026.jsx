@@ -134,7 +134,7 @@ export function WitchHouse(props) {
         <mesh geometry={nodes.Lantern_01_glass_2.geometry} material={materials.lanternlight} rotation={[Math.PI / 2, 0, 0]} scale={100} />
       </group>
       <group position={[10.627, -2.85, 18.556]} scale={2.696}>
-        {/* <mesh geometry={nodes.Victorian_Bookcase_Tall.geometry} material={materials['bookshelf 1']} position={[0, 0, -0.005]} rotation={[Math.PI / 2, 0, Math.PI / 2]} scale={100}>
+        <mesh geometry={nodes.Victorian_Bookcase_Tall.geometry} material={materials['bookshelf 1']} position={[0, 0, -0.005]} rotation={[Math.PI / 2, 0, Math.PI / 2]} scale={100}>
           <mesh geometry={nodes.Victorian_Bookcase_Tall_Books_1.geometry} material={materials['bookshelf 1']} position={[0, 0, -0.001]} rotation={[0, 0, -Math.PI / 2]} />
           <mesh geometry={nodes.Victorian_Bookcase_Tall_Books_2.geometry} material={materials['bookshelf 1']} position={[0, 0, -0.004]} rotation={[0, 0, -Math.PI / 2]} />
           <mesh geometry={nodes.Victorian_Bookcase_Tall_Books_3.geometry} material={materials['bookshelf 1']} position={[0, -0.001, -0.007]} rotation={[0, 0, -Math.PI / 2]} />
@@ -143,7 +143,7 @@ export function WitchHouse(props) {
           <mesh geometry={nodes.Victorian_Bookcase_Tall_Books_6.geometry} material={materials['bookshelf 1']} position={[-0.042, 0.005, -0.02]} rotation={[0, 0, -Math.PI]} scale={1.424} />
           <mesh geometry={nodes.Victorian_Bookcase_Tall_Books_7.geometry} material={materials['bookshelf 1']} position={[-0.042, 0.004, -0.033]} rotation={[0.037, -0.327, -3.112]} scale={1.601} />
           <mesh geometry={nodes.Victorian_Bookcase_Tall_Corner.geometry} material={materials.broom} />
-        </mesh> */}
+        </mesh>
       </group>
       <mesh geometry={nodes.bookshelf001.geometry} material={materials.bookshelf} position={[9.734, 3.852, 6.525]} scale={[167.563, 711.114, 503.472]} />
       <mesh geometry={nodes.chair1.geometry} material={materials.chair} position={[-4.375, 1.555, 4.91]} rotation={[0, -0.761, 0]} scale={[176.069, 34.391, 176.069]} />
