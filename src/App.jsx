@@ -2,6 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";import Home from "./pages
 import Portfolio from "./pages/portfolio";
 import Games from "./pages/games";
 import Contact from "./pages/contact";
+import ThreeDWork from "./pages/3dwork";
 import Footer from "./components/footer";
 import spiderlogo from "./assets/spiderbec.png";
 
@@ -27,6 +28,9 @@ export default function App() {
     <Link to="games" className="text-purple-200 hover:text-purple-400 transition-colors">
       Games
     </Link>
+    <Link to="3dwork" className="text-purple-200 hover:text-purple-400 transition-colors">
+      3D Work
+    </Link>
     <Link
       to="contact"
       className="bg-purple-700 px-5 py-2 rounded-lg text-white font-semibold hover:bg-purple-600 transition-colors shadow-md hover:shadow-purple-700/40"
@@ -45,6 +49,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/games" element={<Games />} />
+            <Route path="/3dwork" element={<ThreeDWork />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>

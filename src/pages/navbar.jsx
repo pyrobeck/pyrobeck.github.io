@@ -11,6 +11,7 @@ export default function Navbar() {
     { name: "Home", path: "/" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "Games", path: "/games" },
+    { name: "ThreeDWork", path: "/3dwork" },
   ];
 
   return (
