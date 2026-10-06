@@ -5,9 +5,10 @@ Command: npx gltfjsx@6.5.3 WitchHouse2026.glb --draco
 
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
+import witchHouseUrl from '../assets/artwork/WitchHouse2026.glb?url'
 
 export function WitchHouse(props) {
-  const { nodes, materials } = useGLTF('src/assets/artwork/WitchHouse2026.glb')
+  const { nodes, materials } = useGLTF(witchHouseUrl)
   return (
     <group {...props} dispose={null}>
       <group position={[7.144, 0.297, -6.539]} scale={[37.254, 96.46, 53.915]}>
@@ -216,4 +217,4 @@ export function WitchHouse(props) {
   )
 }
 
-useGLTF.preload('/WitchHouse2026.glb')
+useGLTF.preload(witchHouseUrl)
