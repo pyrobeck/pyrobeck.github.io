@@ -7,13 +7,20 @@ import { WitchHouse } from "../components/WitchHouse2026.jsx";
 function ThreeDWork() {
   return (
     <>
+      <h1
+          className="font-mono font-bold text-center leading-[0.9] mb-16
+                     text-[4rem] sm:text-[6rem] md:text-[8rem]"
+          style={{ fontFamily: '"Space Mono", monospace' }}
+        >
+          Witch House
+        </h1>
       <main className="px-5">
-        <div className="border-2 h-[700px] my-5 rounded-lg">
+        <div className="h-[600px] my-5">
           <Canvas>
             <PerspectiveCamera
               makeDefault
               fov={75}
-              position={[0, 0, 2]}
+              position={[10, 20, 0]}
               resolution={1024}
             />
             <CameraControls />
@@ -25,6 +32,10 @@ function ThreeDWork() {
           </Canvas>
         </div>
       </main>
+      <p className="text-base sm:text-sm text-purple-100">
+            Made in Blender.  Materials and effects added in Unity.  
+      </p>
+      <br></br>
     </>
   );
 }
