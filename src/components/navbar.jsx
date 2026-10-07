@@ -11,22 +11,21 @@ export default function Navbar() {
     { name: "Home", path: "/" },
     { name: "Portfolio", path: "/portfolio" },
     { name: "Games", path: "/games" },
-    { name: "ThreeDWork", path: "/3dwork" },
+    { name: "3D Work", path: "/3dwork" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/40 border-b border-white/10 text-white font-sans">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 sm:px-10 py-4 md:py-5">
+      <div className="mx-auto flex justify-between items-center px-6 sm:px-10 py-4 md:py-5">
         <Link to="/" className="flex items-center space-x-3">
           <img
             src={spider}
             alt="Beck's Logo"
             className="h-12 sm:h-14 w-auto object-contain hover:scale-105 transition-transform duration-200"
           />
-          <span className="font-display text-xl tracking-tight">BECK</span>
         </Link>
 
-        <ul className="hidden md:flex items-center space-x-10 text-lg font-medium">
+        <ul className="hidden lg:flex items-center space-x-10 text-lg font-medium">
           {navLinks.map((link) => (
             <li key={link.name}>
               <Link
@@ -59,7 +58,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden focus:outline-none text-gray-200 hover:text-purple-400 transition"
+          className="lg:hidden focus:outline-none text-gray-200 hover:text-purple-400 transition"
           aria-label="Toggle Menu"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -67,7 +66,7 @@ export default function Navbar() {
       </div>
 
       <div
-        className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
+        className={`lg:hidden transition-all duration-300 ease-in-out overflow-hidden ${
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
