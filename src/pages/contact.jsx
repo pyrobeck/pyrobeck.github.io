@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import artvid from "../assets/artwork/kitchencurtainwind.mp4";
+import artvid from "../assets/artwork/curtainsupdated.mp4";
 
 export default function Contact() {
   return (
